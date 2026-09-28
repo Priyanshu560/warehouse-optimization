@@ -1,0 +1,130 @@
+item_id,item_name,location_id,weight_kg,volume_m3,stock_qty,category
+SKU-0001,Wireless Mouse,A02-R03-S3-B2,0.119,0.00089,199,Electronics
+SKU-0002,Wireless Mouse (Variant 2),A06-R03-S1-B1,0.127,0.00087,143,Electronics
+SKU-0003,Wireless Mouse (Variant 3),A04-R04-S2-B1,0.125,0.0009,42,Electronics
+SKU-0004,Bluetooth Speaker,A03-R01-S2-B2,0.477,0.00339,178,Electronics
+SKU-0005,Bluetooth Speaker (Variant 2),A03-R03-S1-B1,0.451,0.00333,110,Electronics
+SKU-0006,Bluetooth Speaker (Variant 3),A06-R04-S2-B1,0.469,0.00352,214,Electronics
+SKU-0007,USB-C Charging Cable,A04-R02-S1-B1,0.064,0.00021,168,Electronics
+SKU-0008,USB-C Charging Cable (Variant 2),A03-R03-S3-B1,0.058,0.00018,107,Electronics
+SKU-0009,USB-C Charging Cable (Variant 3),A05-R04-S1-B2,0.064,0.00021,93,Electronics
+SKU-0010,Mechanical Keyboard,A02-R03-S2-B2,0.91,0.0046,160,Electronics
+SKU-0011,Mechanical Keyboard (Variant 2),A05-R02-S3-B2,1.018,0.00448,139,Electronics
+SKU-0012,Mechanical Keyboard (Variant 3),A03-R04-S1-B1,0.998,0.00517,151,Electronics
+SKU-0013,Noise Cancelling Headphones,A03-R04-S1-B2,0.292,0.00207,136,Electronics
+SKU-0014,Noise Cancelling Headphones (Variant 2),A02-R04-S1-B1,0.3,0.00208,150,Electronics
+SKU-0015,Noise Cancelling Headphones (Variant 3),A06-R02-S2-B1,0.297,0.00217,69,Electronics
+SKU-0016,Portable Power Bank,A02-R02-S1-B1,0.363,0.00187,191,Electronics
+SKU-0017,Portable Power Bank (Variant 2),A06-R03-S3-B1,0.324,0.00175,186,Electronics
+SKU-0018,Portable Power Bank (Variant 3),A04-R01-S1-B1,0.348,0.00178,147,Electronics
+SKU-0019,Webcam 1080p,A04-R03-S2-B1,0.149,0.00115,31,Electronics
+SKU-0020,Webcam 1080p (Variant 2),A02-R03-S2-B1,0.146,0.00122,73,Electronics
+SKU-0021,Webcam 1080p (Variant 3),A06-R02-S1-B2,0.152,0.00111,196,Electronics
+SKU-0022,Smart LED Bulb,A01-R01-S1-B2,0.112,0.00067,246,Electronics
+SKU-0023,Smart LED Bulb (Variant 2),A04-R01-S2-B1,0.102,0.00068,146,Electronics
+SKU-0024,Smart LED Bulb (Variant 3),A05-R01-S1-B1,0.105,0.00072,69,Electronics
+SKU-0025,Ceramic Coffee Mug,A02-R02-S2-B1,0.352,0.00114,240,Home & Kitchen
+SKU-0026,Ceramic Coffee Mug (Variant 2),A06-R01-S1-B1,0.354,0.0011,215,Home & Kitchen
+SKU-0027,Ceramic Coffee Mug (Variant 3),A06-R03-S1-B2,0.348,0.00108,39,Home & Kitchen
+SKU-0028,Non-Stick Frying Pan,A05-R02-S1-B1,0.702,0.00445,123,Home & Kitchen
+SKU-0029,Non-Stick Frying Pan (Variant 2),A05-R04-S3-B2,0.739,0.00476,28,Home & Kitchen
+SKU-0030,Non-Stick Frying Pan (Variant 3),A01-R04-S1-B1,0.771,0.00485,40,Home & Kitchen
+SKU-0031,Stainless Steel Water Bottle,A06-R01-S1-B2,0.279,0.00093,219,Home & Kitchen
+SKU-0032,Stainless Steel Water Bottle (Variant 2),A05-R02-S3-B1,0.317,0.00086,63,Home & Kitchen
+SKU-0033,Stainless Steel Water Bottle (Variant 3),A03-R02-S2-B1,0.302,0.00085,61,Home & Kitchen
+SKU-0034,Cutting Board Set,A06-R02-S1-B1,0.579,0.00288,34,Home & Kitchen
+SKU-0035,Cutting Board Set (Variant 2),A04-R02-S2-B2,0.595,0.00317,155,Home & Kitchen
+SKU-0036,Cutting Board Set (Variant 3),A01-R03-S3-B1,0.561,0.00307,153,Home & Kitchen
+SKU-0037,Electric Kettle,A03-R03-S3-B2,1.159,0.00645,207,Home & Kitchen
+SKU-0038,Electric Kettle (Variant 2),A03-R03-S1-B2,1.161,0.00568,139,Home & Kitchen
+SKU-0039,Electric Kettle (Variant 3),A03-R04-S3-B2,1.097,0.00635,246,Home & Kitchen
+SKU-0040,Kitchen Scale,A03-R03-S2-B2,0.39,0.00196,114,Home & Kitchen
+SKU-0041,Kitchen Scale (Variant 2),A05-R03-S2-B1,0.404,0.00209,131,Home & Kitchen
+SKU-0042,Kitchen Scale (Variant 3),A06-R01-S2-B2,0.406,0.00206,202,Home & Kitchen
+SKU-0043,Dish Towel Set,A02-R03-S1-B1,0.216,0.00151,198,Home & Kitchen
+SKU-0044,Dish Towel Set (Variant 2),A05-R03-S3-B2,0.2,0.00143,70,Home & Kitchen
+SKU-0045,Dish Towel Set (Variant 3),A01-R01-S3-B1,0.215,0.00152,153,Home & Kitchen
+SKU-0046,Airtight Food Container,A06-R02-S3-B1,0.232,0.00175,27,Home & Kitchen
+SKU-0047,Airtight Food Container (Variant 2),A02-R01-S1-B2,0.253,0.0018,233,Home & Kitchen
+SKU-0048,Airtight Food Container (Variant 3),A06-R01-S2-B1,0.251,0.00167,145,Home & Kitchen
+SKU-0049,Cotton T-Shirt,A01-R01-S2-B1,0.168,0.0019,167,Apparel
+SKU-0050,Cotton T-Shirt (Variant 2),A06-R02-S3-B2,0.168,0.00212,118,Apparel
+SKU-0051,Cotton T-Shirt (Variant 3),A01-R01-S2-B2,0.169,0.00212,78,Apparel
+SKU-0052,Fleece Hoodie,A03-R01-S3-B1,0.557,0.00509,35,Apparel
+SKU-0053,Fleece Hoodie (Variant 2),A03-R01-S1-B2,0.543,0.00557,148,Apparel
+SKU-0054,Fleece Hoodie (Variant 3),A04-R03-S3-B1,0.534,0.00529,186,Apparel
+SKU-0055,Running Socks (3-Pack),A05-R02-S2-B1,0.124,0.00096,116,Apparel
+SKU-0056,Running Socks (3-Pack) (Variant 2),A01-R03-S2-B1,0.113,0.00102,132,Apparel
+SKU-0057,Running Socks (3-Pack) (Variant 3),A06-R01-S3-B2,0.116,0.00104,33,Apparel
+SKU-0058,Denim Jeans,A05-R01-S2-B1,0.599,0.00408,159,Apparel
+SKU-0059,Denim Jeans (Variant 2),A02-R03-S3-B1,0.702,0.00373,69,Apparel
+SKU-0060,Denim Jeans (Variant 3),A01-R03-S3-B2,0.651,0.00376,104,Apparel
+SKU-0061,Baseball Cap,A04-R02-S3-B1,0.106,0.00127,109,Apparel
+SKU-0062,Baseball Cap (Variant 2),A04-R01-S3-B1,0.097,0.00119,154,Apparel
+SKU-0063,Baseball Cap (Variant 3),A05-R02-S2-B2,0.103,0.00122,221,Apparel
+SKU-0064,Rain Jacket,A02-R02-S1-B2,0.492,0.0035,224,Apparel
+SKU-0065,Rain Jacket (Variant 2),A01-R04-S2-B2,0.484,0.00406,41,Apparel
+SKU-0066,Rain Jacket (Variant 3),A01-R02-S2-B2,0.514,0.00358,44,Apparel
+SKU-0067,Spiral Notebook,A02-R02-S3-B1,0.297,0.00156,54,Office Supplies
+SKU-0068,Spiral Notebook (Variant 2),A06-R03-S3-B2,0.27,0.00153,198,Office Supplies
+SKU-0069,Spiral Notebook (Variant 3),A05-R01-S2-B2,0.273,0.00154,233,Office Supplies
+SKU-0070,Ballpoint Pen Pack,A02-R04-S3-B2,0.087,0.0004,246,Office Supplies
+SKU-0071,Ballpoint Pen Pack (Variant 2),A05-R03-S3-B1,0.096,0.00037,177,Office Supplies
+SKU-0072,Ballpoint Pen Pack (Variant 3),A04-R03-S1-B1,0.089,0.00039,15,Office Supplies
+SKU-0073,Desk Organizer,A04-R04-S3-B1,0.535,0.00301,82,Office Supplies
+SKU-0074,Desk Organizer (Variant 2),A06-R03-S2-B2,0.52,0.00317,195,Office Supplies
+SKU-0075,Desk Organizer (Variant 3),A04-R04-S1-B1,0.544,0.00295,34,Office Supplies
+SKU-0076,Sticky Notes Pack,A05-R01-S3-B1,0.075,0.00031,53,Office Supplies
+SKU-0077,Sticky Notes Pack (Variant 2),A04-R03-S1-B2,0.071,0.00032,164,Office Supplies
+SKU-0078,Sticky Notes Pack (Variant 3),A05-R04-S2-B1,0.071,0.0003,25,Office Supplies
+SKU-0079,Stapler,A04-R03-S2-B2,0.194,0.00096,218,Office Supplies
+SKU-0080,Stapler (Variant 2),A02-R01-S3-B2,0.215,0.00083,106,Office Supplies
+SKU-0081,Stapler (Variant 3),A04-R04-S3-B2,0.191,0.00086,41,Office Supplies
+SKU-0082,Whiteboard Marker Set,A06-R03-S2-B1,0.146,0.00061,238,Office Supplies
+SKU-0083,Whiteboard Marker Set (Variant 2),A02-R01-S1-B1,0.148,0.00061,54,Office Supplies
+SKU-0084,Whiteboard Marker Set (Variant 3),A04-R01-S1-B2,0.16,0.00057,56,Office Supplies
+SKU-0085,Yoga Mat,A02-R04-S3-B1,0.969,0.00735,240,Sports & Outdoors
+SKU-0086,Yoga Mat (Variant 2),A04-R02-S1-B2,0.887,0.00664,100,Sports & Outdoors
+SKU-0087,Yoga Mat (Variant 3),A04-R02-S2-B1,0.941,0.0069,186,Sports & Outdoors
+SKU-0088,Resistance Band Set,A02-R03-S1-B2,0.37,0.0021,83,Sports & Outdoors
+SKU-0089,Resistance Band Set (Variant 2),A06-R04-S2-B2,0.331,0.00206,112,Sports & Outdoors
+SKU-0090,Resistance Band Set (Variant 3),A01-R02-S3-B1,0.371,0.00211,71,Sports & Outdoors
+SKU-0091,Water Bottle Insulated,A05-R01-S3-B2,0.305,0.00117,104,Sports & Outdoors
+SKU-0092,Water Bottle Insulated (Variant 2),A01-R03-S2-B2,0.31,0.00115,73,Sports & Outdoors
+SKU-0093,Water Bottle Insulated (Variant 3),A03-R04-S2-B1,0.306,0.00113,117,Sports & Outdoors
+SKU-0094,Jump Rope,A03-R02-S3-B1,0.175,0.00085,212,Sports & Outdoors
+SKU-0095,Jump Rope (Variant 2),A04-R04-S2-B2,0.174,0.00082,117,Sports & Outdoors
+SKU-0096,Jump Rope (Variant 3),A01-R01-S3-B2,0.185,0.00084,99,Sports & Outdoors
+SKU-0097,Camping Headlamp,A02-R02-S2-B2,0.15,0.00056,81,Sports & Outdoors
+SKU-0098,Camping Headlamp (Variant 2),A04-R01-S3-B2,0.133,0.00064,82,Sports & Outdoors
+SKU-0099,Camping Headlamp (Variant 3),A02-R04-S2-B1,0.13,0.00061,103,Sports & Outdoors
+SKU-0100,Foldable Trekking Pole,A02-R04-S2-B2,0.466,0.00243,170,Sports & Outdoors
+SKU-0101,Foldable Trekking Pole (Variant 2),A01-R03-S1-B1,0.485,0.00235,245,Sports & Outdoors
+SKU-0102,Foldable Trekking Pole (Variant 3),A03-R01-S1-B1,0.456,0.0024,196,Sports & Outdoors
+SKU-0103,Building Block Set,A01-R02-S3-B2,0.792,0.00602,221,Toys & Games
+SKU-0104,Building Block Set (Variant 2),A01-R03-S1-B2,0.805,0.00621,204,Toys & Games
+SKU-0105,Building Block Set (Variant 3),A05-R03-S1-B2,0.83,0.00571,125,Toys & Games
+SKU-0106,Puzzle 1000-Piece,A05-R04-S1-B1,0.512,0.00359,99,Toys & Games
+SKU-0107,Puzzle 1000-Piece (Variant 2),A02-R01-S2-B2,0.561,0.00359,46,Toys & Games
+SKU-0108,Puzzle 1000-Piece (Variant 3),A01-R04-S1-B2,0.569,0.00339,94,Toys & Games
+SKU-0109,Remote Control Car,A05-R04-S3-B1,0.616,0.00486,193,Toys & Games
+SKU-0110,Remote Control Car (Variant 2),A02-R04-S1-B2,0.58,0.0047,122,Toys & Games
+SKU-0111,Remote Control Car (Variant 3),A03-R02-S1-B1,0.616,0.0049,206,Toys & Games
+SKU-0112,Board Game Classic,A06-R01-S3-B1,1.011,0.0056,92,Toys & Games
+SKU-0113,Board Game Classic (Variant 2),A01-R04-S2-B1,0.936,0.00579,92,Toys & Games
+SKU-0114,Board Game Classic (Variant 3),A05-R04-S2-B2,0.918,0.00544,163,Toys & Games
+SKU-0115,Plush Toy Bear,A05-R01-S1-B2,0.305,0.00389,128,Toys & Games
+SKU-0116,Plush Toy Bear (Variant 2),A01-R01-S1-B1,0.297,0.00382,136,Toys & Games
+SKU-0117,Plush Toy Bear (Variant 3),A05-R03-S2-B2,0.314,0.00429,203,Toys & Games
+SKU-0118,Paperback Novel,A05-R02-S1-B2,0.237,0.00075,146,Books & Media
+SKU-0119,Paperback Novel (Variant 2),A06-R04-S1-B1,0.257,0.00082,38,Books & Media
+SKU-0120,Paperback Novel (Variant 3),A04-R01-S2-B2,0.263,0.00083,187,Books & Media
+SKU-0121,Hardcover Cookbook,A06-R04-S1-B2,0.679,0.00189,52,Books & Media
+SKU-0122,Hardcover Cookbook (Variant 2),A06-R04-S3-B2,0.647,0.00173,136,Books & Media
+SKU-0123,Hardcover Cookbook (Variant 3),A03-R01-S3-B2,0.712,0.00188,131,Books & Media
+SKU-0124,Notebook Journal,A03-R04-S2-B2,0.316,0.00122,64,Books & Media
+SKU-0125,Notebook Journal (Variant 2),A04-R03-S3-B2,0.331,0.00118,117,Books & Media
+SKU-0126,Notebook Journal (Variant 3),A04-R02-S3-B2,0.307,0.00123,16,Books & Media
+SKU-0127,Desk Calendar,A04-R04-S1-B2,0.298,0.00116,241,Books & Media
+SKU-0128,Desk Calendar (Variant 2),A03-R01-S2-B1,0.262,0.00109,60,Books & Media
+SKU-0129,Desk Calendar (Variant 3),A06-R04-S3-B1,0.294,0.00113,133,Books & Media

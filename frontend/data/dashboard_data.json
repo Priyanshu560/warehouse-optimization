@@ -1,0 +1,5358 @@
+{
+  "meta": {
+    "generated_at": "2026-08-02T18:46:16",
+    "orders_processed": 60,
+    "batches_ffd": 25,
+    "batches_optimized": 23,
+    "batches_saved": 2,
+    "distance_baseline_m": 1660.0,
+    "distance_optimized_m": 1396.2,
+    "distance_saved_m": 263.8,
+    "improvement_pct": 15.9,
+    "runtime_sec": 0.7
+  },
+  "warehouse": {
+    "depot": {
+      "location_id": "DEPOT",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "locations": [
+      {
+        "location_id": "A01-R01-S1-B1",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A01-R01-S1-B2",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A01-R01-S2-B1",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A01-R01-S2-B2",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A01-R01-S3-B1",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A01-R01-S3-B2",
+        "aisle": "A01",
+        "rack": "R01",
+        "x": 3.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A01-R02-S1-B1",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A01-R02-S1-B2",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A01-R02-S2-B1",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A01-R02-S2-B2",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A01-R02-S3-B1",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A01-R02-S3-B2",
+        "aisle": "A01",
+        "rack": "R02",
+        "x": 3.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A01-R03-S1-B1",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A01-R03-S1-B2",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A01-R03-S2-B1",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A01-R03-S2-B2",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A01-R03-S3-B1",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A01-R03-S3-B2",
+        "aisle": "A01",
+        "rack": "R03",
+        "x": 3.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A01-R04-S1-B1",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A01-R04-S1-B2",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A01-R04-S2-B1",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A01-R04-S2-B2",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A01-R04-S3-B1",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A01-R04-S3-B2",
+        "aisle": "A01",
+        "rack": "R04",
+        "x": 3.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A02-R01-S1-B1",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A02-R01-S1-B2",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A02-R01-S2-B1",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A02-R01-S2-B2",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A02-R01-S3-B1",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A02-R01-S3-B2",
+        "aisle": "A02",
+        "rack": "R01",
+        "x": 6.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A02-R02-S1-B1",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A02-R02-S1-B2",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A02-R02-S2-B1",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A02-R02-S2-B2",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A02-R02-S3-B1",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A02-R02-S3-B2",
+        "aisle": "A02",
+        "rack": "R02",
+        "x": 6.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A02-R03-S1-B1",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A02-R03-S1-B2",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A02-R03-S2-B1",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A02-R03-S2-B2",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A02-R03-S3-B1",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A02-R03-S3-B2",
+        "aisle": "A02",
+        "rack": "R03",
+        "x": 6.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A02-R04-S1-B1",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A02-R04-S1-B2",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A02-R04-S2-B1",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A02-R04-S2-B2",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A02-R04-S3-B1",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A02-R04-S3-B2",
+        "aisle": "A02",
+        "rack": "R04",
+        "x": 6.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A03-R01-S1-B1",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A03-R01-S1-B2",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A03-R01-S2-B1",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A03-R01-S2-B2",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A03-R01-S3-B1",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A03-R01-S3-B2",
+        "aisle": "A03",
+        "rack": "R01",
+        "x": 9.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A03-R02-S1-B1",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A03-R02-S1-B2",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A03-R02-S2-B1",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A03-R02-S2-B2",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A03-R02-S3-B1",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A03-R02-S3-B2",
+        "aisle": "A03",
+        "rack": "R02",
+        "x": 9.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A03-R03-S1-B1",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A03-R03-S1-B2",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A03-R03-S2-B1",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A03-R03-S2-B2",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A03-R03-S3-B1",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A03-R03-S3-B2",
+        "aisle": "A03",
+        "rack": "R03",
+        "x": 9.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A03-R04-S1-B1",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A03-R04-S1-B2",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A03-R04-S2-B1",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A03-R04-S2-B2",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A03-R04-S3-B1",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A03-R04-S3-B2",
+        "aisle": "A03",
+        "rack": "R04",
+        "x": 9.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A04-R01-S1-B1",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A04-R01-S1-B2",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A04-R01-S2-B1",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A04-R01-S2-B2",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A04-R01-S3-B1",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A04-R01-S3-B2",
+        "aisle": "A04",
+        "rack": "R01",
+        "x": 12.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A04-R02-S1-B1",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A04-R02-S1-B2",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A04-R02-S2-B1",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A04-R02-S2-B2",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A04-R02-S3-B1",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A04-R02-S3-B2",
+        "aisle": "A04",
+        "rack": "R02",
+        "x": 12.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A04-R03-S1-B1",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A04-R03-S1-B2",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A04-R03-S2-B1",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A04-R03-S2-B2",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A04-R03-S3-B1",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A04-R03-S3-B2",
+        "aisle": "A04",
+        "rack": "R03",
+        "x": 12.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A04-R04-S1-B1",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A04-R04-S1-B2",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A04-R04-S2-B1",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A04-R04-S2-B2",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A04-R04-S3-B1",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A04-R04-S3-B2",
+        "aisle": "A04",
+        "rack": "R04",
+        "x": 12.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A05-R01-S1-B1",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A05-R01-S1-B2",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A05-R01-S2-B1",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A05-R01-S2-B2",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A05-R01-S3-B1",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A05-R01-S3-B2",
+        "aisle": "A05",
+        "rack": "R01",
+        "x": 15.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A05-R02-S1-B1",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A05-R02-S1-B2",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A05-R02-S2-B1",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A05-R02-S2-B2",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A05-R02-S3-B1",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A05-R02-S3-B2",
+        "aisle": "A05",
+        "rack": "R02",
+        "x": 15.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A05-R03-S1-B1",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A05-R03-S1-B2",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A05-R03-S2-B1",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A05-R03-S2-B2",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A05-R03-S3-B1",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A05-R03-S3-B2",
+        "aisle": "A05",
+        "rack": "R03",
+        "x": 15.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A05-R04-S1-B1",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A05-R04-S1-B2",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A05-R04-S2-B1",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A05-R04-S2-B2",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A05-R04-S3-B1",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A05-R04-S3-B2",
+        "aisle": "A05",
+        "rack": "R04",
+        "x": 15.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A06-R01-S1-B1",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A06-R01-S1-B2",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A06-R01-S2-B1",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A06-R01-S2-B2",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A06-R01-S3-B1",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.7
+      },
+      {
+        "location_id": "A06-R01-S3-B2",
+        "aisle": "A06",
+        "rack": "R01",
+        "x": 18.0,
+        "y": 2.9
+      },
+      {
+        "location_id": "A06-R02-S1-B1",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A06-R02-S1-B2",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A06-R02-S2-B1",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A06-R02-S2-B2",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A06-R02-S3-B1",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.2
+      },
+      {
+        "location_id": "A06-R02-S3-B2",
+        "aisle": "A06",
+        "rack": "R02",
+        "x": 18.0,
+        "y": 5.4
+      },
+      {
+        "location_id": "A06-R03-S1-B1",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A06-R03-S1-B2",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A06-R03-S2-B1",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A06-R03-S2-B2",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A06-R03-S3-B1",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.7
+      },
+      {
+        "location_id": "A06-R03-S3-B2",
+        "aisle": "A06",
+        "rack": "R03",
+        "x": 18.0,
+        "y": 7.9
+      },
+      {
+        "location_id": "A06-R04-S1-B1",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A06-R04-S1-B2",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A06-R04-S2-B1",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A06-R04-S2-B2",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.4
+      },
+      {
+        "location_id": "A06-R04-S3-B1",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.2
+      },
+      {
+        "location_id": "A06-R04-S3-B2",
+        "aisle": "A06",
+        "rack": "R04",
+        "x": 18.0,
+        "y": 10.4
+      }
+    ],
+    "aisles": [
+      {
+        "label": "A01",
+        "x": 3.0
+      },
+      {
+        "label": "A02",
+        "x": 6.0
+      },
+      {
+        "label": "A03",
+        "x": 9.0
+      },
+      {
+        "label": "A04",
+        "x": 12.0
+      },
+      {
+        "label": "A05",
+        "x": 15.0
+      },
+      {
+        "label": "A06",
+        "x": 18.0
+      }
+    ],
+    "racks": [
+      {
+        "label": "R01",
+        "y": 2.8
+      },
+      {
+        "label": "R02",
+        "y": 5.300000000000001
+      },
+      {
+        "label": "R03",
+        "y": 7.800000000000001
+      },
+      {
+        "label": "R04",
+        "y": 10.3
+      }
+    ]
+  },
+  "batches": [
+    {
+      "batch_id": "BATCH-001",
+      "order_ids": [
+        "ORD-0030",
+        "ORD-0050"
+      ],
+      "num_orders": 2,
+      "total_units": 18,
+      "total_weight_kg": 8.58,
+      "total_volume_m3": 0.0428,
+      "num_stops": 6,
+      "avg_priority_weight": 3.0,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S3-B1",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0045",
+              "item_name": "Dish Towel Set (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S2-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0069",
+              "item_name": "Spiral Notebook (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S3-B2",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0011",
+              "item_name": "Mechanical Keyboard (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S3-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0068",
+              "item_name": "Spiral Notebook (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B2",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0121",
+              "item_name": "Hardcover Cookbook",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S2-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0006",
+              "item_name": "Bluetooth Speaker (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S3-B1",
+            "A05-R01-S2-B2",
+            "A05-R02-S3-B2",
+            "A06-R03-S3-B2",
+            "A06-R04-S1-B2",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.6
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S3-B1",
+            "A05-R01-S2-B2",
+            "A05-R02-S3-B2",
+            "A06-R03-S3-B2",
+            "A06-R04-S2-B1",
+            "A06-R04-S1-B2"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.6
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S3-B1",
+            "A05-R01-S2-B2",
+            "A05-R02-S3-B2",
+            "A06-R03-S3-B2",
+            "A06-R04-S2-B1",
+            "A06-R04-S1-B2"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.6
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-002",
+      "order_ids": [
+        "ORD-0019",
+        "ORD-0036",
+        "ORD-0053"
+      ],
+      "num_orders": 3,
+      "total_units": 24,
+      "total_weight_kg": 8.79,
+      "total_volume_m3": 0.0481,
+      "num_stops": 8,
+      "avg_priority_weight": 2.67,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0030",
+              "item_name": "Non-Stick Frying Pan (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R02-S2-B1",
+          "aisle": "A02",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0025",
+              "item_name": "Ceramic Coffee Mug",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S1-B1",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0018",
+              "item_name": "Portable Power Bank (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0035",
+              "item_name": "Cutting Board Set (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S1-B2",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0127",
+              "item_name": "Desk Calendar",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S1-B2",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0031",
+              "item_name": "Stainless Steel Water Bottle",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S2-B1",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0048",
+              "item_name": "Airtight Food Container (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R02-S3-B2",
+          "aisle": "A06",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0050",
+              "item_name": "Cotton T-Shirt (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R02-S2-B1",
+            "A04-R01-S1-B1",
+            "A04-R02-S2-B2",
+            "A04-R04-S1-B2",
+            "A06-R01-S1-B2",
+            "A06-R01-S2-B1",
+            "A06-R02-S3-B2"
+          ],
+          "distance_m": 77.2,
+          "time_min": 3.5
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R02-S2-B1",
+            "A04-R02-S2-B2",
+            "A04-R01-S1-B1",
+            "A06-R01-S2-B1",
+            "A06-R01-S1-B2",
+            "A06-R02-S3-B2",
+            "A04-R04-S1-B2",
+            "A01-R04-S1-B1"
+          ],
+          "distance_m": 62.2,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A02-R02-S2-B1",
+            "A04-R02-S2-B2",
+            "A04-R01-S1-B1",
+            "A06-R01-S2-B1",
+            "A06-R01-S1-B2",
+            "A06-R02-S3-B2",
+            "A04-R04-S1-B2",
+            "A01-R04-S1-B1"
+          ],
+          "distance_m": 62.2,
+          "time_min": 3.3
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-003",
+      "order_ids": [
+        "ORD-0024",
+        "ORD-0028",
+        "ORD-0051"
+      ],
+      "num_orders": 3,
+      "total_units": 20,
+      "total_weight_kg": 8.99,
+      "total_volume_m3": 0.0498,
+      "num_stops": 7,
+      "avg_priority_weight": 2.67,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S3-B2",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0096",
+              "item_name": "Jump Rope (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S2-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0113",
+              "item_name": "Board Game Classic (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R01-S2-B2",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0107",
+              "item_name": "Puzzle 1000-Piece (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S3-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0098",
+              "item_name": "Camping Headlamp (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S1-B1",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0028",
+              "item_name": "Non-Stick Frying Pan",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S3-B1",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0032",
+              "item_name": "Stainless Steel Water Bottle (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S2-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0074",
+              "item_name": "Desk Organizer (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S3-B2",
+            "A01-R04-S2-B1",
+            "A02-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R02-S1-B1",
+            "A05-R02-S3-B1",
+            "A06-R03-S2-B2"
+          ],
+          "distance_m": 66.4,
+          "time_min": 3.0
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S3-B2",
+            "A02-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R02-S1-B1",
+            "A05-R02-S3-B1",
+            "A06-R03-S2-B2",
+            "A01-R04-S2-B1"
+          ],
+          "distance_m": 56.4,
+          "time_min": 2.9
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S3-B2",
+            "A02-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R02-S1-B1",
+            "A05-R02-S3-B1",
+            "A06-R03-S2-B2",
+            "A01-R04-S2-B1"
+          ],
+          "distance_m": 56.4,
+          "time_min": 2.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-004",
+      "order_ids": [
+        "ORD-0006",
+        "ORD-0040"
+      ],
+      "num_orders": 2,
+      "total_units": 23,
+      "total_weight_kg": 8.43,
+      "total_volume_m3": 0.0458,
+      "num_stops": 8,
+      "avg_priority_weight": 2.5,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A02-R03-S2-B1",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0020",
+              "item_name": "Webcam 1080p (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S2-B2",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0100",
+              "item_name": "Foldable Trekking Pole",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S2-B2",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0040",
+              "item_name": "Kitchen Scale",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S3-B1",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0008",
+              "item_name": "USB-C Charging Cable (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0087",
+              "item_name": "Yoga Mat (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R03-S3-B2",
+          "aisle": "A04",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0125",
+              "item_name": "Notebook Journal (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S3-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0068",
+              "item_name": "Spiral Notebook (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B2",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0121",
+              "item_name": "Hardcover Cookbook",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A02-R03-S2-B1",
+            "A02-R04-S2-B2",
+            "A03-R03-S2-B2",
+            "A03-R03-S3-B1",
+            "A04-R02-S2-B1",
+            "A04-R03-S3-B2",
+            "A06-R03-S3-B2",
+            "A06-R04-S1-B2"
+          ],
+          "distance_m": 67.2,
+          "time_min": 3.3
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R03-S2-B1",
+            "A02-R04-S2-B2",
+            "A03-R03-S2-B2",
+            "A03-R03-S3-B1",
+            "A04-R03-S3-B2",
+            "A04-R02-S2-B1",
+            "A06-R03-S3-B2",
+            "A06-R04-S1-B2"
+          ],
+          "distance_m": 67.6,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A02-R03-S2-B1",
+            "A02-R04-S2-B2",
+            "A06-R04-S1-B2",
+            "A06-R03-S3-B2",
+            "A04-R02-S2-B1",
+            "A04-R03-S3-B2",
+            "A03-R03-S3-B1",
+            "A03-R03-S2-B2"
+          ],
+          "distance_m": 62.6,
+          "time_min": 3.3
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-005",
+      "order_ids": [
+        "ORD-0031",
+        "ORD-0042"
+      ],
+      "num_orders": 2,
+      "total_units": 14,
+      "total_weight_kg": 8.92,
+      "total_volume_m3": 0.0501,
+      "num_stops": 4,
+      "avg_priority_weight": 2.5,
+      "earliest_due_date": "2026-07-23",
+      "stops": [
+        {
+          "location_id": "A02-R04-S3-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0085",
+              "item_name": "Yoga Mat",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S1-B1",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0012",
+              "item_name": "Mechanical Keyboard (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S2-B2",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0042",
+              "item_name": "Kitchen Scale (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S1-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0027",
+              "item_name": "Ceramic Coffee Mug (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A02-R04-S3-B1",
+            "A03-R04-S1-B1",
+            "A06-R01-S2-B2",
+            "A06-R03-S1-B2"
+          ],
+          "distance_m": 66.4,
+          "time_min": 2.1
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R04-S3-B1",
+            "A03-R04-S1-B1",
+            "A06-R03-S1-B2",
+            "A06-R01-S2-B2"
+          ],
+          "distance_m": 56.4,
+          "time_min": 2.0
+        },
+        "two_opt": {
+          "sequence": [
+            "A02-R04-S3-B1",
+            "A03-R04-S1-B1",
+            "A06-R03-S1-B2",
+            "A06-R01-S2-B2"
+          ],
+          "distance_m": 56.4,
+          "time_min": 2.0
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-006",
+      "order_ids": [
+        "ORD-0009",
+        "ORD-0027",
+        "ORD-0045"
+      ],
+      "num_orders": 3,
+      "total_units": 22,
+      "total_weight_kg": 9.0,
+      "total_volume_m3": 0.0701,
+      "num_stops": 8,
+      "avg_priority_weight": 2.33,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S2-B2",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0051",
+              "item_name": "Cotton T-Shirt (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S1-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0030",
+              "item_name": "Non-Stick Frying Pan (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S2-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0065",
+              "item_name": "Rain Jacket (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S3-B1",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0008",
+              "item_name": "USB-C Charging Cable (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R03-S1-B2",
+          "aisle": "A04",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0077",
+              "item_name": "Sticky Notes Pack (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S2-B2",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0117",
+              "item_name": "Plush Toy Bear (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S2-B1",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0078",
+              "item_name": "Sticky Notes Pack (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S3-B1",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0109",
+              "item_name": "Remote Control Car",
+              "quantity": 6
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A01-R04-S1-B1",
+            "A01-R04-S2-B2",
+            "A03-R03-S3-B1",
+            "A04-R03-S1-B2",
+            "A05-R03-S2-B2",
+            "A05-R04-S2-B1",
+            "A05-R04-S3-B1"
+          ],
+          "distance_m": 55.8,
+          "time_min": 3.2
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A01-R04-S1-B1",
+            "A01-R04-S2-B2",
+            "A03-R03-S3-B1",
+            "A04-R03-S1-B2",
+            "A05-R03-S2-B2",
+            "A05-R04-S2-B1",
+            "A05-R04-S3-B1"
+          ],
+          "distance_m": 55.8,
+          "time_min": 3.2
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A01-R04-S1-B1",
+            "A01-R04-S2-B2",
+            "A05-R04-S3-B1",
+            "A05-R04-S2-B1",
+            "A05-R03-S2-B2",
+            "A04-R03-S1-B2",
+            "A03-R03-S3-B1"
+          ],
+          "distance_m": 50.8,
+          "time_min": 3.1
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-007",
+      "order_ids": [
+        "ORD-0011",
+        "ORD-0020",
+        "ORD-0026",
+        "ORD-0058"
+      ],
+      "num_orders": 4,
+      "total_units": 24,
+      "total_weight_kg": 8.86,
+      "total_volume_m3": 0.0592,
+      "num_stops": 10,
+      "avg_priority_weight": 2.25,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S1-B1",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0116",
+              "item_name": "Plush Toy Bear (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S2-B1",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0020",
+              "item_name": "Webcam 1080p (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S3-B1",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0059",
+              "item_name": "Denim Jeans (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S3-B2",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0001",
+              "item_name": "Wireless Mouse",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S1-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0007",
+              "item_name": "USB-C Charging Cable",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S3-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0076",
+              "item_name": "Sticky Notes Pack",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S1-B2",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0105",
+              "item_name": "Building Block Set (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S2-B1",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0041",
+              "item_name": "Kitchen Scale (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S3-B2",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0029",
+              "item_name": "Non-Stick Frying Pan (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S2-B2",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0042",
+              "item_name": "Kitchen Scale (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A02-R03-S2-B1",
+            "A02-R03-S3-B1",
+            "A02-R03-S3-B2",
+            "A04-R02-S1-B1",
+            "A05-R01-S3-B1",
+            "A05-R03-S1-B2",
+            "A05-R03-S2-B1",
+            "A05-R04-S3-B2",
+            "A06-R01-S2-B2"
+          ],
+          "distance_m": 67.6,
+          "time_min": 3.9
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A02-R03-S2-B1",
+            "A02-R03-S3-B1",
+            "A02-R03-S3-B2",
+            "A04-R02-S1-B1",
+            "A05-R01-S3-B1",
+            "A06-R01-S2-B2",
+            "A05-R03-S2-B1",
+            "A05-R03-S1-B2",
+            "A05-R04-S3-B2"
+          ],
+          "distance_m": 67.2,
+          "time_min": 3.9
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A02-R03-S2-B1",
+            "A02-R03-S3-B1",
+            "A02-R03-S3-B2",
+            "A05-R04-S3-B2",
+            "A05-R03-S1-B2",
+            "A05-R03-S2-B1",
+            "A06-R01-S2-B2",
+            "A05-R01-S3-B1",
+            "A04-R02-S1-B1"
+          ],
+          "distance_m": 61.8,
+          "time_min": 3.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-008",
+      "order_ids": [
+        "ORD-0008",
+        "ORD-0022",
+        "ORD-0023",
+        "ORD-0029",
+        "ORD-0043"
+      ],
+      "num_orders": 5,
+      "total_units": 24,
+      "total_weight_kg": 8.92,
+      "total_volume_m3": 0.0622,
+      "num_stops": 10,
+      "avg_priority_weight": 2.2,
+      "earliest_due_date": "2026-07-24",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0108",
+              "item_name": "Puzzle 1000-Piece (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S2-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0065",
+              "item_name": "Rain Jacket (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0014",
+              "item_name": "Noise Cancelling Headphones (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R02-S1-B1",
+          "aisle": "A03",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0111",
+              "item_name": "Remote Control Car (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S3-B2",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0039",
+              "item_name": "Electric Kettle (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R03-S1-B1",
+          "aisle": "A04",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0072",
+              "item_name": "Ballpoint Pen Pack (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S2-B2",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0063",
+              "item_name": "Baseball Cap (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S1-B1",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0106",
+              "item_name": "Puzzle 1000-Piece",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S2-B1",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0048",
+              "item_name": "Airtight Food Container (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R02-S1-B2",
+          "aisle": "A06",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0021",
+              "item_name": "Webcam 1080p (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A01-R04-S2-B2",
+            "A02-R04-S1-B1",
+            "A03-R02-S1-B1",
+            "A03-R04-S3-B2",
+            "A04-R03-S1-B1",
+            "A05-R02-S2-B2",
+            "A05-R04-S1-B1",
+            "A06-R01-S2-B1",
+            "A06-R02-S1-B2"
+          ],
+          "distance_m": 82.2,
+          "time_min": 4.1
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A01-R04-S2-B2",
+            "A02-R04-S1-B1",
+            "A03-R04-S3-B2",
+            "A03-R02-S1-B1",
+            "A04-R03-S1-B1",
+            "A05-R02-S2-B2",
+            "A06-R02-S1-B2",
+            "A06-R01-S2-B1",
+            "A05-R04-S1-B1"
+          ],
+          "distance_m": 77.2,
+          "time_min": 4.1
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A01-R04-S2-B2",
+            "A02-R04-S1-B1",
+            "A03-R04-S3-B2",
+            "A05-R04-S1-B1",
+            "A06-R01-S2-B1",
+            "A06-R02-S1-B2",
+            "A05-R02-S2-B2",
+            "A04-R03-S1-B1",
+            "A03-R02-S1-B1"
+          ],
+          "distance_m": 67.2,
+          "time_min": 3.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-009",
+      "order_ids": [
+        "ORD-0013"
+      ],
+      "num_orders": 1,
+      "total_units": 17,
+      "total_weight_kg": 8.61,
+      "total_volume_m3": 0.0524,
+      "num_stops": 5,
+      "avg_priority_weight": 2.0,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0108",
+              "item_name": "Puzzle 1000-Piece (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S1-B2",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0088",
+              "item_name": "Resistance Band Set",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S2-B2",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0004",
+              "item_name": "Bluetooth Speaker",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S3-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0126",
+              "item_name": "Notebook Journal (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S1-B1",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0028",
+              "item_name": "Non-Stick Frying Pan",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A02-R03-S1-B2",
+            "A03-R01-S2-B2",
+            "A04-R02-S3-B2",
+            "A05-R02-S1-B1"
+          ],
+          "distance_m": 55.8,
+          "time_min": 2.3
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A03-R01-S2-B2",
+            "A04-R02-S3-B2",
+            "A05-R02-S1-B1",
+            "A02-R03-S1-B2",
+            "A01-R04-S1-B2"
+          ],
+          "distance_m": 51.2,
+          "time_min": 2.2
+        },
+        "two_opt": {
+          "sequence": [
+            "A03-R01-S2-B2",
+            "A04-R02-S3-B2",
+            "A05-R02-S1-B1",
+            "A02-R03-S1-B2",
+            "A01-R04-S1-B2"
+          ],
+          "distance_m": 51.2,
+          "time_min": 2.2
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-010",
+      "order_ids": [
+        "ORD-0010",
+        "ORD-0017",
+        "ORD-0059"
+      ],
+      "num_orders": 3,
+      "total_units": 23,
+      "total_weight_kg": 8.97,
+      "total_volume_m3": 0.0577,
+      "num_stops": 8,
+      "avg_priority_weight": 2.0,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0030",
+              "item_name": "Non-Stick Frying Pan (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0014",
+              "item_name": "Noise Cancelling Headphones (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S1-B1",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0005",
+              "item_name": "Bluetooth Speaker (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S1-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0024",
+              "item_name": "Smart LED Bulb (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S1-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0115",
+              "item_name": "Plush Toy Bear",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S3-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0076",
+              "item_name": "Sticky Notes Pack",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S3-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0068",
+              "item_name": "Spiral Notebook (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S3-B2",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0122",
+              "item_name": "Hardcover Cookbook (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R04-S1-B1",
+            "A03-R03-S1-B1",
+            "A05-R01-S1-B1",
+            "A05-R01-S1-B2",
+            "A05-R01-S3-B1",
+            "A06-R03-S3-B2",
+            "A06-R04-S3-B2"
+          ],
+          "distance_m": 72.2,
+          "time_min": 3.4
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R04-S1-B1",
+            "A03-R03-S1-B1",
+            "A06-R03-S3-B2",
+            "A06-R04-S3-B2",
+            "A05-R01-S1-B2",
+            "A05-R01-S1-B1",
+            "A05-R01-S3-B1"
+          ],
+          "distance_m": 61.8,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R04-S1-B1",
+            "A03-R03-S1-B1",
+            "A06-R03-S3-B2",
+            "A06-R04-S3-B2",
+            "A05-R01-S1-B2",
+            "A05-R01-S1-B1",
+            "A05-R01-S3-B1"
+          ],
+          "distance_m": 61.8,
+          "time_min": 3.3
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-011",
+      "order_ids": [
+        "ORD-0005",
+        "ORD-0014",
+        "ORD-0047"
+      ],
+      "num_orders": 3,
+      "total_units": 24,
+      "total_weight_kg": 8.89,
+      "total_volume_m3": 0.0446,
+      "num_stops": 10,
+      "avg_priority_weight": 2.0,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S2-B1",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0049",
+              "item_name": "Cotton T-Shirt",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S2-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0065",
+              "item_name": "Rain Jacket (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R01-S1-B1",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0083",
+              "item_name": "Whiteboard Marker Set (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S2-B2",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0100",
+              "item_name": "Foldable Trekking Pole",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S3-B2",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0123",
+              "item_name": "Hardcover Cookbook (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S2-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0120",
+              "item_name": "Paperback Novel (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S3-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0098",
+              "item_name": "Camping Headlamp (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S2-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0069",
+              "item_name": "Spiral Notebook (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S3-B1",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0112",
+              "item_name": "Board Game Classic",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S2-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0006",
+              "item_name": "Bluetooth Speaker (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S2-B1",
+            "A01-R04-S2-B2",
+            "A02-R01-S1-B1",
+            "A02-R04-S2-B2",
+            "A03-R01-S3-B2",
+            "A04-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R01-S2-B2",
+            "A06-R01-S3-B1",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 87.2,
+          "time_min": 4.2
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S2-B1",
+            "A02-R01-S1-B1",
+            "A03-R01-S3-B2",
+            "A04-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R01-S2-B2",
+            "A06-R01-S3-B1",
+            "A06-R04-S2-B1",
+            "A02-R04-S2-B2",
+            "A01-R04-S2-B2"
+          ],
+          "distance_m": 57.2,
+          "time_min": 3.8
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S2-B1",
+            "A02-R01-S1-B1",
+            "A03-R01-S3-B2",
+            "A04-R01-S2-B2",
+            "A04-R01-S3-B2",
+            "A05-R01-S2-B2",
+            "A06-R01-S3-B1",
+            "A06-R04-S2-B1",
+            "A02-R04-S2-B2",
+            "A01-R04-S2-B2"
+          ],
+          "distance_m": 57.2,
+          "time_min": 3.8
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-012",
+      "order_ids": [
+        "ORD-0004",
+        "ORD-0033"
+      ],
+      "num_orders": 2,
+      "total_units": 20,
+      "total_weight_kg": 8.98,
+      "total_volume_m3": 0.0633,
+      "num_stops": 6,
+      "avg_priority_weight": 2.0,
+      "earliest_due_date": "2026-07-25",
+      "stops": [
+        {
+          "location_id": "A02-R01-S2-B2",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0107",
+              "item_name": "Puzzle 1000-Piece (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0014",
+              "item_name": "Noise Cancelling Headphones (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S1-B2",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0053",
+              "item_name": "Fleece Hoodie (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S2-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0069",
+              "item_name": "Spiral Notebook (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S2-B2",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0114",
+              "item_name": "Board Game Classic (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S3-B1",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0017",
+              "item_name": "Portable Power Bank (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A02-R01-S2-B2",
+            "A02-R04-S1-B1",
+            "A03-R01-S1-B2",
+            "A05-R01-S2-B2",
+            "A05-R04-S2-B2",
+            "A06-R03-S3-B1"
+          ],
+          "distance_m": 71.4,
+          "time_min": 2.8
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R01-S2-B2",
+            "A03-R01-S1-B2",
+            "A05-R01-S2-B2",
+            "A05-R04-S2-B2",
+            "A06-R03-S3-B1",
+            "A02-R04-S1-B1"
+          ],
+          "distance_m": 61.8,
+          "time_min": 2.7
+        },
+        "two_opt": {
+          "sequence": [
+            "A02-R01-S2-B2",
+            "A03-R01-S1-B2",
+            "A05-R01-S2-B2",
+            "A05-R04-S2-B2",
+            "A06-R03-S3-B1",
+            "A02-R04-S1-B1"
+          ],
+          "distance_m": 61.8,
+          "time_min": 2.7
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-013",
+      "order_ids": [
+        "ORD-0015",
+        "ORD-0054"
+      ],
+      "num_orders": 2,
+      "total_units": 24,
+      "total_weight_kg": 8.87,
+      "total_volume_m3": 0.0473,
+      "num_stops": 9,
+      "avg_priority_weight": 2.0,
+      "earliest_due_date": "2026-07-26",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B2",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0108",
+              "item_name": "Puzzle 1000-Piece (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R01-S2-B2",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0107",
+              "item_name": "Puzzle 1000-Piece (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S2-B2",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0040",
+              "item_name": "Kitchen Scale",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S3-B1",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0008",
+              "item_name": "USB-C Charging Cable (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S1-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0084",
+              "item_name": "Whiteboard Marker Set (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0087",
+              "item_name": "Yoga Mat (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S3-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0126",
+              "item_name": "Notebook Journal (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S1-B2",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0127",
+              "item_name": "Desk Calendar",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S1-B1",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0026",
+              "item_name": "Ceramic Coffee Mug (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A02-R01-S2-B2",
+            "A03-R03-S2-B2",
+            "A03-R03-S3-B1",
+            "A04-R01-S1-B2",
+            "A04-R02-S2-B1",
+            "A04-R02-S3-B2",
+            "A04-R04-S1-B2",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 81.8,
+          "time_min": 3.8
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R01-S2-B2",
+            "A04-R01-S1-B2",
+            "A04-R02-S2-B1",
+            "A04-R02-S3-B2",
+            "A04-R04-S1-B2",
+            "A03-R03-S2-B2",
+            "A03-R03-S3-B1",
+            "A01-R04-S1-B2",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 80.2,
+          "time_min": 3.8
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R04-S1-B2",
+            "A03-R03-S3-B1",
+            "A03-R03-S2-B2",
+            "A04-R04-S1-B2",
+            "A04-R02-S3-B2",
+            "A04-R02-S2-B1",
+            "A04-R01-S1-B2",
+            "A02-R01-S2-B2",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 74.2,
+          "time_min": 3.7
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-014",
+      "order_ids": [
+        "ORD-0003",
+        "ORD-0025",
+        "ORD-0035"
+      ],
+      "num_orders": 3,
+      "total_units": 22,
+      "total_weight_kg": 8.44,
+      "total_volume_m3": 0.0433,
+      "num_stops": 8,
+      "avg_priority_weight": 1.67,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A01-R03-S3-B1",
+          "aisle": "A01",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0036",
+              "item_name": "Cutting Board Set (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R02-S1-B1",
+          "aisle": "A02",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0016",
+              "item_name": "Portable Power Bank",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B2",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0110",
+              "item_name": "Remote Control Car (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S2-B1",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0128",
+              "item_name": "Desk Calendar (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S2-B2",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0040",
+              "item_name": "Kitchen Scale",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R03-S2-B2",
+          "aisle": "A04",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0079",
+              "item_name": "Stapler",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S1-B1",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0075",
+              "item_name": "Desk Organizer (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S1-B2",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0031",
+              "item_name": "Stainless Steel Water Bottle",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R03-S3-B1",
+            "A02-R02-S1-B1",
+            "A02-R04-S1-B2",
+            "A03-R01-S2-B1",
+            "A03-R03-S2-B2",
+            "A04-R03-S2-B2",
+            "A04-R04-S1-B1",
+            "A06-R01-S1-B2"
+          ],
+          "distance_m": 76.8,
+          "time_min": 3.5
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R03-S3-B1",
+            "A02-R02-S1-B1",
+            "A02-R04-S1-B2",
+            "A03-R03-S2-B2",
+            "A04-R03-S2-B2",
+            "A04-R04-S1-B1",
+            "A03-R01-S2-B1",
+            "A06-R01-S1-B2"
+          ],
+          "distance_m": 72.8,
+          "time_min": 3.4
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R03-S3-B1",
+            "A02-R02-S1-B1",
+            "A02-R04-S1-B2",
+            "A04-R04-S1-B1",
+            "A04-R03-S2-B2",
+            "A03-R03-S2-B2",
+            "A03-R01-S2-B1",
+            "A06-R01-S1-B2"
+          ],
+          "distance_m": 68.2,
+          "time_min": 3.3
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-015",
+      "order_ids": [
+        "ORD-0046",
+        "ORD-0048",
+        "ORD-0057"
+      ],
+      "num_orders": 3,
+      "total_units": 23,
+      "total_weight_kg": 8.46,
+      "total_volume_m3": 0.0447,
+      "num_stops": 10,
+      "avg_priority_weight": 1.67,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A02-R04-S3-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0085",
+              "item_name": "Yoga Mat",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S1-B1",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0102",
+              "item_name": "Foldable Trekking Pole (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R02-S3-B1",
+          "aisle": "A03",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0094",
+              "item_name": "Jump Rope",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S1-B2",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0038",
+              "item_name": "Electric Kettle (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S1-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0084",
+              "item_name": "Whiteboard Marker Set (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S1-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0024",
+              "item_name": "Smart LED Bulb (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S3-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0076",
+              "item_name": "Sticky Notes Pack",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S3-B1",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0071",
+              "item_name": "Ballpoint Pen Pack (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R02-S1-B1",
+          "aisle": "A06",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0034",
+              "item_name": "Cutting Board Set",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S2-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0006",
+              "item_name": "Bluetooth Speaker (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A02-R04-S3-B1",
+            "A03-R01-S1-B1",
+            "A03-R02-S3-B1",
+            "A03-R03-S1-B2",
+            "A04-R01-S1-B2",
+            "A05-R01-S1-B1",
+            "A05-R01-S3-B1",
+            "A05-R03-S3-B1",
+            "A06-R02-S1-B1",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 86.8,
+          "time_min": 4.2
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A03-R01-S1-B1",
+            "A03-R02-S3-B1",
+            "A03-R03-S1-B2",
+            "A02-R04-S3-B1",
+            "A05-R03-S3-B1",
+            "A05-R01-S1-B1",
+            "A05-R01-S3-B1",
+            "A04-R01-S1-B2",
+            "A06-R02-S1-B1",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 83.4,
+          "time_min": 4.2
+        },
+        "two_opt": {
+          "sequence": [
+            "A03-R01-S1-B1",
+            "A04-R01-S1-B2",
+            "A05-R01-S3-B1",
+            "A05-R01-S1-B1",
+            "A05-R03-S3-B1",
+            "A06-R02-S1-B1",
+            "A06-R04-S2-B1",
+            "A03-R03-S1-B2",
+            "A03-R02-S3-B1",
+            "A02-R04-S3-B1"
+          ],
+          "distance_m": 71.8,
+          "time_min": 4.0
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-016",
+      "order_ids": [
+        "ORD-0018",
+        "ORD-0038",
+        "ORD-0055"
+      ],
+      "num_orders": 3,
+      "total_units": 24,
+      "total_weight_kg": 8.98,
+      "total_volume_m3": 0.0576,
+      "num_stops": 8,
+      "avg_priority_weight": 1.67,
+      "earliest_due_date": "2026-07-23",
+      "stops": [
+        {
+          "location_id": "A01-R03-S2-B2",
+          "aisle": "A01",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0092",
+              "item_name": "Water Bottle Insulated (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S2-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0099",
+              "item_name": "Camping Headlamp (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S3-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0085",
+              "item_name": "Yoga Mat",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S3-B1",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0062",
+              "item_name": "Baseball Cap (Variant 2)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S2-B2",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0095",
+              "item_name": "Jump Rope (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S3-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0091",
+              "item_name": "Water Bottle Insulated",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S3-B1",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0109",
+              "item_name": "Remote Control Car",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R01-S1-B1",
+          "aisle": "A06",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0026",
+              "item_name": "Ceramic Coffee Mug (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R03-S2-B2",
+            "A02-R04-S2-B1",
+            "A02-R04-S3-B1",
+            "A04-R01-S3-B1",
+            "A04-R04-S2-B2",
+            "A05-R01-S3-B2",
+            "A05-R04-S3-B1",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 86.4,
+          "time_min": 3.6
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R03-S2-B2",
+            "A02-R04-S2-B1",
+            "A02-R04-S3-B1",
+            "A04-R04-S2-B2",
+            "A05-R04-S3-B1",
+            "A05-R01-S3-B2",
+            "A04-R01-S3-B1",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 62.8,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R03-S2-B2",
+            "A02-R04-S2-B1",
+            "A02-R04-S3-B1",
+            "A04-R04-S2-B2",
+            "A05-R04-S3-B1",
+            "A05-R01-S3-B2",
+            "A04-R01-S3-B1",
+            "A06-R01-S1-B1"
+          ],
+          "distance_m": 62.8,
+          "time_min": 3.3
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-017",
+      "order_ids": [
+        "ORD-0001",
+        "ORD-0016"
+      ],
+      "num_orders": 2,
+      "total_units": 24,
+      "total_weight_kg": 8.74,
+      "total_volume_m3": 0.051,
+      "num_stops": 7,
+      "avg_priority_weight": 1.5,
+      "earliest_due_date": "2026-07-21",
+      "stops": [
+        {
+          "location_id": "A01-R01-S1-B2",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0022",
+              "item_name": "Smart LED Bulb",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R01-S2-B1",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0049",
+              "item_name": "Cotton T-Shirt",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0035",
+              "item_name": "Cutting Board Set (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S2-B1",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0003",
+              "item_name": "Wireless Mouse (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R04-S2-B2",
+          "aisle": "A05",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0114",
+              "item_name": "Board Game Classic (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S2-B1",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0082",
+              "item_name": "Whiteboard Marker Set",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0119",
+              "item_name": "Paperback Novel (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S1-B2",
+            "A01-R01-S2-B1",
+            "A04-R02-S2-B2",
+            "A04-R04-S2-B1",
+            "A05-R04-S2-B2",
+            "A06-R03-S2-B1",
+            "A06-R04-S1-B1"
+          ],
+          "distance_m": 62.2,
+          "time_min": 3.0
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S2-B1",
+            "A01-R01-S1-B2",
+            "A04-R02-S2-B2",
+            "A04-R04-S2-B1",
+            "A05-R04-S2-B2",
+            "A06-R04-S1-B1",
+            "A06-R03-S2-B1"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.9
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S2-B1",
+            "A01-R01-S1-B2",
+            "A04-R02-S2-B2",
+            "A04-R04-S2-B1",
+            "A05-R04-S2-B2",
+            "A06-R04-S1-B1",
+            "A06-R03-S2-B1"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-018",
+      "order_ids": [
+        "ORD-0044",
+        "ORD-0056"
+      ],
+      "num_orders": 2,
+      "total_units": 24,
+      "total_weight_kg": 8.58,
+      "total_volume_m3": 0.0496,
+      "num_stops": 9,
+      "avg_priority_weight": 1.5,
+      "earliest_due_date": "2026-07-24",
+      "stops": [
+        {
+          "location_id": "A01-R03-S3-B2",
+          "aisle": "A01",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0060",
+              "item_name": "Denim Jeans (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S2-B1",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0128",
+              "item_name": "Desk Calendar (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R03-S3-B2",
+          "aisle": "A03",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0037",
+              "item_name": "Electric Kettle",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S1-B2",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0013",
+              "item_name": "Noise Cancelling Headphones",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S3-B1",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0062",
+              "item_name": "Baseball Cap (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S1-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0024",
+              "item_name": "Smart LED Bulb (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S2-B1",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0055",
+              "item_name": "Running Socks (3-Pack)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0119",
+              "item_name": "Paperback Novel (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S2-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0006",
+              "item_name": "Bluetooth Speaker (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R03-S3-B2",
+            "A03-R01-S2-B1",
+            "A03-R03-S3-B2",
+            "A03-R04-S1-B2",
+            "A04-R01-S3-B1",
+            "A05-R01-S1-B1",
+            "A05-R02-S2-B1",
+            "A06-R04-S1-B1",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 82.2,
+          "time_min": 3.8
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R03-S3-B2",
+            "A03-R03-S3-B2",
+            "A03-R04-S1-B2",
+            "A03-R01-S2-B1",
+            "A04-R01-S3-B1",
+            "A05-R01-S1-B1",
+            "A05-R02-S2-B1",
+            "A06-R04-S1-B1",
+            "A06-R04-S2-B1"
+          ],
+          "distance_m": 71.8,
+          "time_min": 3.7
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R03-S3-B2",
+            "A03-R03-S3-B2",
+            "A03-R04-S1-B2",
+            "A06-R04-S2-B1",
+            "A06-R04-S1-B1",
+            "A05-R02-S2-B1",
+            "A05-R01-S1-B1",
+            "A04-R01-S3-B1",
+            "A03-R01-S2-B1"
+          ],
+          "distance_m": 56.8,
+          "time_min": 3.5
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-019",
+      "order_ids": [
+        "ORD-0002",
+        "ORD-0032",
+        "ORD-0052"
+      ],
+      "num_orders": 3,
+      "total_units": 20,
+      "total_weight_kg": 8.93,
+      "total_volume_m3": 0.0543,
+      "num_stops": 7,
+      "avg_priority_weight": 1.33,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R03-S1-B2",
+          "aisle": "A01",
+          "rack": "R03",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0104",
+              "item_name": "Building Block Set (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A01-R04-S1-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0030",
+              "item_name": "Non-Stick Frying Pan (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R01-S1-B1",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0083",
+              "item_name": "Whiteboard Marker Set (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S3-B1",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0062",
+              "item_name": "Baseball Cap (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R03-S3-B2",
+          "aisle": "A04",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0125",
+              "item_name": "Notebook Journal (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S3-B1",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0071",
+              "item_name": "Ballpoint Pen Pack (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0119",
+              "item_name": "Paperback Novel (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R03-S1-B2",
+            "A01-R04-S1-B1",
+            "A02-R01-S1-B1",
+            "A04-R01-S3-B1",
+            "A04-R03-S3-B2",
+            "A05-R03-S3-B1",
+            "A06-R04-S1-B1"
+          ],
+          "distance_m": 71.8,
+          "time_min": 3.1
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R01-S1-B1",
+            "A04-R01-S3-B1",
+            "A04-R03-S3-B2",
+            "A05-R03-S3-B1",
+            "A06-R04-S1-B1",
+            "A01-R04-S1-B1",
+            "A01-R03-S1-B2"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.9
+        },
+        "two_opt": {
+          "sequence": [
+            "A02-R01-S1-B1",
+            "A04-R01-S3-B1",
+            "A04-R03-S3-B2",
+            "A05-R03-S3-B1",
+            "A06-R04-S1-B1",
+            "A01-R04-S1-B1",
+            "A01-R03-S1-B2"
+          ],
+          "distance_m": 56.8,
+          "time_min": 2.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-020",
+      "order_ids": [
+        "ORD-0007",
+        "ORD-0021"
+      ],
+      "num_orders": 2,
+      "total_units": 20,
+      "total_weight_kg": 8.87,
+      "total_volume_m3": 0.0519,
+      "num_stops": 8,
+      "avg_priority_weight": 1.0,
+      "earliest_due_date": "2026-07-22",
+      "stops": [
+        {
+          "location_id": "A01-R01-S1-B2",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0022",
+              "item_name": "Smart LED Bulb",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0014",
+              "item_name": "Noise Cancelling Headphones (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S1-B2",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0110",
+              "item_name": "Remote Control Car (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S1-B1",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0012",
+              "item_name": "Mechanical Keyboard (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S1-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0007",
+              "item_name": "USB-C Charging Cable",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0035",
+              "item_name": "Cutting Board Set (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S1-B1",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0075",
+              "item_name": "Desk Organizer (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S1-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0119",
+              "item_name": "Paperback Novel (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S1-B2",
+            "A02-R04-S1-B1",
+            "A02-R04-S1-B2",
+            "A03-R04-S1-B1",
+            "A04-R02-S1-B1",
+            "A04-R02-S2-B2",
+            "A04-R04-S1-B1",
+            "A06-R04-S1-B1"
+          ],
+          "distance_m": 66.8,
+          "time_min": 3.3
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S1-B2",
+            "A02-R04-S1-B1",
+            "A02-R04-S1-B2",
+            "A03-R04-S1-B1",
+            "A04-R04-S1-B1",
+            "A04-R02-S2-B2",
+            "A04-R02-S1-B1",
+            "A06-R04-S1-B1"
+          ],
+          "distance_m": 66.8,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S1-B2",
+            "A02-R04-S1-B1",
+            "A02-R04-S1-B2",
+            "A03-R04-S1-B1",
+            "A04-R04-S1-B1",
+            "A06-R04-S1-B1",
+            "A04-R02-S1-B1",
+            "A04-R02-S2-B2"
+          ],
+          "distance_m": 57.2,
+          "time_min": 3.2
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-021",
+      "order_ids": [
+        "ORD-0034",
+        "ORD-0041",
+        "ORD-0049"
+      ],
+      "num_orders": 3,
+      "total_units": 22,
+      "total_weight_kg": 8.93,
+      "total_volume_m3": 0.0518,
+      "num_stops": 10,
+      "avg_priority_weight": 1.0,
+      "earliest_due_date": "2026-07-23",
+      "stops": [
+        {
+          "location_id": "A01-R04-S1-B1",
+          "aisle": "A01",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0030",
+              "item_name": "Non-Stick Frying Pan (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R01-S3-B2",
+          "aisle": "A02",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0080",
+              "item_name": "Stapler (Variant 2)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S2-B2",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0010",
+              "item_name": "Mechanical Keyboard",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S1-B1",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0018",
+              "item_name": "Portable Power Bank (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R01-S2-B2",
+          "aisle": "A04",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0120",
+              "item_name": "Paperback Novel (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S2-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0087",
+              "item_name": "Yoga Mat (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S3-B1",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 12.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0061",
+              "item_name": "Baseball Cap",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S3-B1",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0076",
+              "item_name": "Sticky Notes Pack",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R03-S2-B1",
+          "aisle": "A05",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0041",
+              "item_name": "Kitchen Scale (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R03-S2-B2",
+          "aisle": "A06",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 18.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0074",
+              "item_name": "Desk Organizer (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R01-S3-B2",
+            "A02-R03-S2-B2",
+            "A04-R01-S1-B1",
+            "A04-R01-S2-B2",
+            "A04-R02-S2-B1",
+            "A04-R02-S3-B1",
+            "A05-R01-S3-B1",
+            "A05-R03-S2-B1",
+            "A06-R03-S2-B2"
+          ],
+          "distance_m": 81.8,
+          "time_min": 4.1
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A02-R01-S3-B2",
+            "A02-R03-S2-B2",
+            "A01-R04-S1-B1",
+            "A04-R02-S2-B1",
+            "A04-R02-S3-B1",
+            "A04-R01-S2-B2",
+            "A04-R01-S1-B1",
+            "A05-R01-S3-B1",
+            "A05-R03-S2-B1",
+            "A06-R03-S2-B2"
+          ],
+          "distance_m": 72.8,
+          "time_min": 4.0
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R04-S1-B1",
+            "A02-R03-S2-B2",
+            "A06-R03-S2-B2",
+            "A05-R03-S2-B1",
+            "A05-R01-S3-B1",
+            "A04-R01-S1-B1",
+            "A04-R01-S2-B2",
+            "A04-R02-S3-B1",
+            "A04-R02-S2-B1",
+            "A02-R01-S3-B2"
+          ],
+          "distance_m": 61.4,
+          "time_min": 3.9
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-022",
+      "order_ids": [
+        "ORD-0037",
+        "ORD-0060"
+      ],
+      "num_orders": 2,
+      "total_units": 20,
+      "total_weight_kg": 8.81,
+      "total_volume_m3": 0.0583,
+      "num_stops": 7,
+      "avg_priority_weight": 1.0,
+      "earliest_due_date": "2026-07-23",
+      "stops": [
+        {
+          "location_id": "A01-R01-S1-B1",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 3.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0116",
+              "item_name": "Plush Toy Bear (Variant 2)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S2-B1",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0093",
+              "item_name": "Water Bottle Insulated (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S3-B2",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0039",
+              "item_name": "Electric Kettle (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R02-S3-B2",
+          "aisle": "A04",
+          "rack": "R02",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0126",
+              "item_name": "Notebook Journal (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R01-S1-B2",
+          "aisle": "A05",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0115",
+              "item_name": "Plush Toy Bear",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S1-B1",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 15.0,
+          "y": 5.2,
+          "items": [
+            {
+              "item_id": "SKU-0028",
+              "item_name": "Non-Stick Frying Pan",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A06-R04-S3-B1",
+          "aisle": "A06",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B1",
+          "x": 18.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0129",
+              "item_name": "Desk Calendar (Variant 3)",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A03-R04-S2-B1",
+            "A03-R04-S3-B2",
+            "A04-R02-S3-B2",
+            "A05-R01-S1-B2",
+            "A05-R02-S1-B1",
+            "A06-R04-S3-B1"
+          ],
+          "distance_m": 71.4,
+          "time_min": 3.1
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A04-R02-S3-B2",
+            "A05-R02-S1-B1",
+            "A05-R01-S1-B2",
+            "A06-R04-S3-B1",
+            "A03-R04-S2-B1",
+            "A03-R04-S3-B2"
+          ],
+          "distance_m": 61.8,
+          "time_min": 3.0
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S1-B1",
+            "A04-R02-S3-B2",
+            "A05-R02-S1-B1",
+            "A05-R01-S1-B2",
+            "A06-R04-S3-B1",
+            "A03-R04-S2-B1",
+            "A03-R04-S3-B2"
+          ],
+          "distance_m": 61.8,
+          "time_min": 3.0
+        }
+      }
+    },
+    {
+      "batch_id": "BATCH-023",
+      "order_ids": [
+        "ORD-0012",
+        "ORD-0039"
+      ],
+      "num_orders": 2,
+      "total_units": 16,
+      "total_weight_kg": 8.7,
+      "total_volume_m3": 0.051,
+      "num_stops": 8,
+      "avg_priority_weight": 1.0,
+      "earliest_due_date": "2026-07-25",
+      "stops": [
+        {
+          "location_id": "A01-R01-S2-B2",
+          "aisle": "A01",
+          "rack": "R01",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 3.0,
+          "y": 2.9,
+          "items": [
+            {
+              "item_id": "SKU-0051",
+              "item_name": "Cotton T-Shirt (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S2-B1",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 7.7,
+          "items": [
+            {
+              "item_id": "SKU-0020",
+              "item_name": "Webcam 1080p (Variant 2)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R03-S2-B2",
+          "aisle": "A02",
+          "rack": "R03",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 6.0,
+          "y": 7.9,
+          "items": [
+            {
+              "item_id": "SKU-0010",
+              "item_name": "Mechanical Keyboard",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "location_id": "A02-R04-S2-B1",
+          "aisle": "A02",
+          "rack": "R04",
+          "shelf": "S2",
+          "bin": "B1",
+          "x": 6.0,
+          "y": 10.2,
+          "items": [
+            {
+              "item_id": "SKU-0099",
+              "item_name": "Camping Headlamp (Variant 3)",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R01-S1-B1",
+          "aisle": "A03",
+          "rack": "R01",
+          "shelf": "S1",
+          "bin": "B1",
+          "x": 9.0,
+          "y": 2.7,
+          "items": [
+            {
+              "item_id": "SKU-0102",
+              "item_name": "Foldable Trekking Pole (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A03-R04-S3-B2",
+          "aisle": "A03",
+          "rack": "R04",
+          "shelf": "S3",
+          "bin": "B2",
+          "x": 9.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0039",
+              "item_name": "Electric Kettle (Variant 3)",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "location_id": "A04-R04-S1-B2",
+          "aisle": "A04",
+          "rack": "R04",
+          "shelf": "S1",
+          "bin": "B2",
+          "x": 12.0,
+          "y": 10.4,
+          "items": [
+            {
+              "item_id": "SKU-0127",
+              "item_name": "Desk Calendar",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "location_id": "A05-R02-S2-B2",
+          "aisle": "A05",
+          "rack": "R02",
+          "shelf": "S2",
+          "bin": "B2",
+          "x": 15.0,
+          "y": 5.4,
+          "items": [
+            {
+              "item_id": "SKU-0063",
+              "item_name": "Baseball Cap (Variant 3)",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "routes": {
+        "greedy": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A02-R03-S2-B1",
+            "A02-R03-S2-B2",
+            "A02-R04-S2-B1",
+            "A03-R01-S1-B1",
+            "A03-R04-S3-B2",
+            "A04-R04-S1-B2",
+            "A05-R02-S2-B2"
+          ],
+          "distance_m": 65.8,
+          "time_min": 3.3
+        },
+        "nearest_neighbor": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A03-R01-S1-B1",
+            "A03-R04-S3-B2",
+            "A04-R04-S1-B2",
+            "A02-R04-S2-B1",
+            "A02-R03-S2-B2",
+            "A02-R03-S2-B1",
+            "A05-R02-S2-B2"
+          ],
+          "distance_m": 63.2,
+          "time_min": 3.3
+        },
+        "two_opt": {
+          "sequence": [
+            "A01-R01-S2-B2",
+            "A02-R03-S2-B1",
+            "A02-R03-S2-B2",
+            "A02-R04-S2-B1",
+            "A04-R04-S1-B2",
+            "A03-R04-S3-B2",
+            "A03-R01-S1-B1",
+            "A05-R02-S2-B2"
+          ],
+          "distance_m": 62.2,
+          "time_min": 3.3
+        }
+      }
+    }
+  ]
+}
