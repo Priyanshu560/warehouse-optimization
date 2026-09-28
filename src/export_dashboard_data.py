@@ -35,7 +35,7 @@ from utils import DEPOT_ID, setup_logger
 from warehouse import WarehouseGrid
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "src" / "data"
 FRONTEND_DATA_DIR = ROOT / "frontend" / "data"
 
 ALGO_KEYS = ("greedy", "nearest_neighbor", "two_opt")

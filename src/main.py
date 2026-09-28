@@ -47,7 +47,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Warehouse Picking Optimization Engine — batch planning and route optimization."
     )
-    default_data = Path(__file__).resolve().parent.parent / "data"
+    default_data = Path(__file__).resolve().parent.parent / "src" / "data"
     default_output = Path(__file__).resolve().parent.parent / "output"
 
     parser.add_argument("--data-dir", type=Path, default=default_data,
